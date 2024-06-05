@@ -1,0 +1,18 @@
+[project]
+name = "python-test-repo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Marco Bischoff", email = "bischoff_m@aim.com"},
+]
+dependencies = [
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
